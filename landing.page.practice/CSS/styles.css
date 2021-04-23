@@ -50,7 +50,7 @@ h3 {
   align-items: center;
 }
 
-.headerLogo {
+.logoImage {
   width: 100px;
   height: 100px;
 }
@@ -139,6 +139,7 @@ h3 {
 .contentInformation {
   width: 80%;
   text-align: center;
+  margin: 2rem 0;
 }
 
 .contentInformation > h2 {
@@ -162,4 +163,46 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 3rem 0;
+}
+
+.companyIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companyIcons > img {
+  margin: 2rem 0;
+}
+
+.siteFooter {
+  background-color: rgb(226, 226, 226);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.siteFooter .logoImage {
+  margin-top: 3rem;
+  width: 60px;
+  height: 60px;
+}
+
+.footerList {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: hsl(210, 1%, 48%);
+  font-size: 1.8rem;
+  line-height: 5rem;
+}
+
+.socialContainer {
+  width: 80%;
+  padding: 0;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-evenly;
 }
