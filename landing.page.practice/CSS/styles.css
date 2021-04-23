@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-image: url(/landing.page.practice/images/bg-header-mobile.png);
+  background-image: url(/images/bg-header-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -132,4 +132,34 @@ h3 {
   .buttonContainer {
     margin-top: 2rem;
   }
+}
+
+/*//////////////////// Heading information styles /////////////////////////*/
+
+.contentInformation {
+  width: 80%;
+  text-align: center;
+}
+
+.contentInformation > h2 {
+  font-size: 2.3rem;
+}
+
+.contentInformation > p {
+  font-size: 1.6rem;
+}
+
+.imageContainer {
+  margin-top: 3rem;
+  width: 80%;
+}
+
+.imageContainer > img {
+  width: 100%;
+}
+
+.siteContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
